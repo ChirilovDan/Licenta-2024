@@ -1,0 +1,76 @@
+﻿@model IEnumerable<DoctorAppointment.Models.OfferServices>
+@{
+    ViewData["Title"] = "DoctorServices";
+    Layout = "~/Views/Shared/_LayoutDoctor.cshtml";
+}
+
+
+<div class="col-md-7 col-lg-8 col-xl-9">
+
+    <div class="breadcrumb-bar">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-12">
+                    <nav aria-label="breadcrumb" class="page-breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a>Doctor</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Doctor Services</li>
+                        </ol>
+                    </nav>
+                    <h2 class="breadcrumb-title">Doctor Services</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="row">
+        <div class="col-md-12">
+            <div class="appointment-tab">
+                <div class="tab-content">
+                    <div class="tab-pane show active" id="upcoming-appointments">
+                        <div class="card card-table mb-0">
+                            <div class="card-header">
+                                <h4 class="card-title" style="float: left">Services</h4>
+                                <a class="btn btn-primary" style="float: right;" asp-action="AddServices">Add newServices</a>
+
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-hover table-center mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Price</th>
+                                                <th>Action</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model)
+                                            {
+                                                <tr>
+                                                    
+                                                    <td>@item.Name</td>
+                                                    <td>@item.Price.ToString("0")</td>
+
+                                                    <td>
+                                                        <a asp-action="EditServices" class="btn btn-primary" asp-route-id="@item.ID">Edit</a>
+                                                        <a asp-action="RemoveServices" class="btn btn-danger" asp-route-id="@item.ID">Delete</a>
+                                                    </td>
+
+
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

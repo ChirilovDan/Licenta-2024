@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title> Dashboard</title>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/Admin/assets/css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="~/Admin/assets/css/font-awesome.min.css">
+
+    <!-- Feathericon CSS -->
+    <link rel="stylesheet" href="~/Admin/assets/css/feathericon.min.css">
+
+    <!-- Datatables CSS -->
+    <link rel="stylesheet" href="assets/plugins/datatables/datatables.min.css">
+
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="~/Admin/assets/css/style.css">
+</head>
+<body>
+
+    <!-- Main Wrapper -->
+    <div class="main-wrapper">
+
+        <!-- Header -->
+        <div class="header">
+
+            <!-- Logo -->
+            <div class="header-left">
+                <a  class="logo">
+                    <img src="~/Admin/assets/img/logo.png" alt="Logo">
+                </a>
+                <a  class="logo logo-small">
+                    <img src="~/Admin/assets/img/logo-small.png" alt="Logo" width="30" height="30">
+                </a>
+            </div>
+            <!-- /Logo -->
+
+            <a href="javascript:void(0);" id="toggle_btn">
+                <i class="fe fe-text-align-left"></i>
+            </a>
+
+
+
+            <!-- Mobile Menu Toggle -->
+            <a class="mobile_btn" id="mobile_btn">
+                <i class="fa fa-bars"></i>
+            </a>
+
+
+        </div>
+        <!-- /Header -->
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+                <div id="sidebar-menu" class="sidebar-menu">
+                    <ul>
+                        <li class="menu-title">
+                            <span>Main</span>
+                        </li>
+                        <li>
+                            <a href="/Admin/Index"><i class="fe fe-home"></i> <span>Dashboard</span></a>
+                        </li>
+                        <li>
+                            <a href="/Admin/Specialities"><i class="fe fe-users"></i> <span>Specialities</span></a>
+                        </li>
+                        <li>
+                            <a href="/Admin/DoctorList"><i class="fe fe-user-plus"></i> <span>Doctors</span></a>
+                        </li>
+                        <li>
+                            <a href="/Admin/Appointments"><i class="fe fe-layout"></i> <span>Appointments</span></a>
+                        </li>
+                        <li>
+                            <a href="/Admin/Logout"><i class="fe fe-vector"></i> <span>Logout</span></a>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /Sidebar -->
+
+
+        @RenderBody()
+    </div>
+    <!-- /Main Wrapper -->
+    <!-- jQuery -->
+    <script src="~/Admin/assets/js/jquery-3.2.1.min.js"></script>
+
+    <!-- Bootstrap Core JS -->
+    <script src="~/Admin/assets/js/popper.min.js"></script>
+    <script src="~/Admin/assets/js/bootstrap.min.js"></script>
+
+    <!-- Slimscroll JS -->
+    <script src="~/Admin/assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <!-- Datatables JS -->
+    <script src="~/Admin/assets/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/Admin/assets/plugins/datatables/datatables.min.js"></script>
+    <!-- Custom JS -->
+    <script src="~/Admin/assets/js/script.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

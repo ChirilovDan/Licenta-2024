@@ -1,0 +1,213 @@
+﻿@model DoctorAppointment.DTO.RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<br />
+<br />
+<br />
+<br />
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="account-content">
+                    <div class="row align-items-center justify-content-center">
+
+                        <div class="col-md-12 col-lg-8 login-right">
+                            <div class="login-header">
+                                <h3>Register</h3>
+                            </div>
+                            <form asp-action="Register" method="post" enctype="multipart/form-data">
+                                <div class="text-danger" asp-validation-summary="ModelOnly">
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label class="focus-label">First Name</label>
+
+                                        <div class="form-group ">
+                                            <input type="text" asp-for="FirstName" class="form-control floating" placeholder="First Name">
+
+                                        </div>
+                                        <span class="text-danger" asp-validation-for="FirstName"></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="focus-label">Last Name</label>
+
+                                        <div class="form-group ">
+                                            <input type="text" asp-for="LastName" class="form-control floating" placeholder="Last Name">
+
+                                        </div>
+                                        <span class="text-danger" asp-validation-for="LastName"></span>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label class="focus-label">Date of birth</label>
+
+                                        <div class="form-group ">
+                                            <input type="date" asp-for="DOB" class="form-control floating" placeholder="Date of birth">
+
+                                        </div>
+                                        <span class="text-danger" asp-validation-for="DOB"></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="focus-label">Blood Group</label>
+
+                                        <div class="form-group ">
+                                            <input type="text" asp-for="BloodGroup" class="form-control floating" placeholder="Blood Group">
+
+                                        </div>
+                                        <span class="text-danger" asp-validation-for="BloodGroup"></span>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label class="focus-label">Email</label>
+
+                                        <div class="form-group">
+                                            <input type="email" asp-for="Email" class="form-control floating" placeholder="Email">
+
+                                        </div>
+                                        <span class="text-danger" asp-validation-for="Email"></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="focus-label">Mobile Number</label>
+
+                                        <div class="form-group ">
+                                            <input type="number" asp-for="PhoneNumber" class="form-control floating" placeholder="Mobile Number">
+
+                                        </div>
+                                        <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+                                    </div>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label class="focus-label">Adress</label>
+
+                                        <div class="form-group ">
+                                            <input type="text" asp-for="Adress" class="form-control floating" placeholder="Adress">
+
+                                        </div>
+                                        <span class="text-danger" asp-validation-for="Adress"></span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                       <label class="focus-label">Gender</label>
+
+                                        <span class="text-danger" asp-validation-for="Gender" ></span>
+                                        <div class="form-group">                                      
+                                            <select class="form-control"  asp-for="Gender">
+                                                <option value="Male">Male</option>
+                                                <option value="Female">Female</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="focus-label">Image</label>
+
+                                        <div class="form-group ">
+                                            <input type="file" asp-for="ProductFile" class="form-control floating" placeholder="Image">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label class="focus-label">City</label>
+
+                                        <div class="form-group ">
+                                            <input type="text" asp-for="City" class="form-control floating" placeholder="City">
+
+                                        </div>
+                                        <span class="text-danger" asp-validation-for="City"></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="focus-label">State</label>
+
+                                        <div class="form-group ">
+                                            <input type="text" asp-for="State" class="form-control floating" placeholder="State">
+
+                                        </div>
+                                        <span class="text-danger" asp-validation-for="State"></span>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label class="focus-label">Zip</label>
+
+                                        <div class="form-group ">
+                                            <input type="number" asp-for="PostalCode" class="form-control " placeholder="Zip">
+
+                                        </div>
+                                        <span class="text-danger" asp-validation-for="PostalCode"></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="focus-label">Country</label>
+
+                                        <div class="form-group ">
+                                            <input type="text" asp-for="Country" class="form-control " placeholder="Country">
+
+                                        </div>
+                                        <span class="text-danger" asp-validation-for="Country"></span>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label class="focus-label">Password</label>
+
+                                        <div class="form-group ">
+                                            <input type="password" asp-for="Password" class="form-control " placeholder="Password">
+
+                                        </div>
+                                        <span class="text-danger" asp-validation-for="Password"></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="focus-label">Confirm Password</label>
+
+                                        <div class="form-group ">
+                                            <input type="password" asp-for="ConfirmPassword" class="form-control " placeholder="Confirm Password">
+
+                                        </div>
+                                        <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+                                    </div>
+
+                                </div>
+
+
+                                <button class="btn btn-primary btn-block btn-lg login-btn" type="submit">Register</button>
+                                <div class="login-or">
+                                    <span class="or-line"></span>
+                                    <span class="span-or">or</span>
+                                </div>
+
+                                <div class="text-center dont-have">Do you have an account? <a href="/Login/Login">Login</a></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<br />
+<br />
+<br />
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

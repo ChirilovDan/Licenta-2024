@@ -1,0 +1,77 @@
+﻿@model DoctorAppointment.ViewModel.DoctorSpecialViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<section class="section section-search">
+    <div class="container-fluid">
+        <div class="banner-wrapper">
+            <div class="banner-header text-center">
+                <h1>Search Doctor, Make an Appointment</h1>
+                <p>Discover the best doctors, hospital.</p>
+            </div>
+            
+
+        </div>
+    </div>
+</section>
+
+<br />
+<br />
+<br />
+<br />
+<h5 class="text-center">Doctor List</h5>
+<section class="section section-doctor">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="d-flex flex-wrap justify-content-start">
+                   
+                    @foreach (var item in Model.Users)
+                    {
+                        <div class="profile-widget mx-2 mb-3" style="height:auto; width:350px">
+                            
+                            <div class="doc-img">
+                                <img class="img-fluid" alt="User Image" src="~/DoctorImage/@item.Image">
+
+                               
+                            </div>
+                            <div class="pro-content">
+                                <h3 class="title">
+                                   @item.FirstName
+                                    <i class="fas fa-check-circle verified"></i>
+                                </h3>
+                                <p class="speciality">@item.AboutMe</p>
+                                <ul class="available-info">
+                                    <li>
+                                        <i class="fas fa-map-marker-alt"></i> @item.State, @item.Country
+                                    </li>
+                                    <li>
+                                        <i class="far fa-clock"></i> @item.DoctorAvailability
+                                    </li>
+                                    <li>
+                                        <i class="far fa-money-bill-alt"></i> @item.DoctorFee.ToString("0")
+                                        <i class="fas fa-info-circle" data-toggle="tooltip" title="Doctor Fee"></i>
+                                    </li>
+                                </ul>
+                                <div class="row row-sm">
+                                    
+                                    <div class="col-6">
+                                        <a asp-action="Booking" asp-route-userID="@item.UserId" class="btn book-btn">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- /Popular Section -->
+<br />
+<br />
+<br />
+<br />
+<br />

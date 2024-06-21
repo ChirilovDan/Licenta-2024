@@ -1,0 +1,697 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DoctorAppointment.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DoctorAppointment.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\css\\feathericon.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\feathericon.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\fonts\\MaterialIcons-Regular.eot",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\MaterialIcons-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\fonts\\MaterialIcons-Regular.html",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\MaterialIcons-Regular.html"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\fonts\\MaterialIcons-Regular.ttf",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\MaterialIcons-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\fonts\\MaterialIcons-Regular.woff",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\MaterialIcons-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\fonts\\feathericon.eot",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\feathericon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\fonts\\feathericon.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\feathericon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\fonts\\feathericon.ttf",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\feathericon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\fonts\\feathericon.woff",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\feathericon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\fonts\\feathericond41d.eot",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\feathericond41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\fonts\\fontawesome-webfont3e6e.html",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome-webfont3e6e.html"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\img\\logo-small.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\logo-small.png"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\img\\logo-white.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\js\\chart.morris.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\chart.morris.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\js\\form-validation.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\form-validation.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\js\\jquery.maskedinput.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\jquery.maskedinput.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\js\\mask.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\mask.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\plugins\\datatables\\datatables.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\plugins\\datatables\\datatables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\plugins\\datatables\\datatables.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\plugins\\datatables\\datatables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\plugins\\datatables\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\plugins\\datatables\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\plugins\\morris\\morris.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\plugins\\morris\\morris.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\plugins\\morris\\morris.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\plugins\\morris\\morris.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\plugins\\raphael\\raphael.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\plugins\\raphael\\raphael.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Admin\\assets\\plugins\\slimscroll\\jquery.slimscroll.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\plugins\\slimscroll\\jquery.slimscroll.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\css\\bootstrap-datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\Customer\\assets\\css\\bootstrap-datetimepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Customer\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\Customer\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\fonts\\MaterialIcons-Regular.eot",
+      "PackagePath": "staticwebassets\\Customer\\assets\\fonts\\MaterialIcons-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\fonts\\MaterialIcons-Regular.html",
+      "PackagePath": "staticwebassets\\Customer\\assets\\fonts\\MaterialIcons-Regular.html"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\fonts\\MaterialIcons-Regular.ttf",
+      "PackagePath": "staticwebassets\\Customer\\assets\\fonts\\MaterialIcons-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\fonts\\MaterialIcons-Regular.woff",
+      "PackagePath": "staticwebassets\\Customer\\assets\\fonts\\MaterialIcons-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\img\\login-banner.png",
+      "PackagePath": "staticwebassets\\Customer\\assets\\img\\login-banner.png"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Customer\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\img\\search-bg.png",
+      "PackagePath": "staticwebassets\\Customer\\assets\\img\\search-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\js\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\js\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\js\\circle-progress.min.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\js\\circle-progress.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\js\\profile-settings.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\js\\profile-settings.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\js\\slick.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\js\\slick.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\bootstrap-tagsinput\\css\\bootstrap-tagsinput.css",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\bootstrap-tagsinput\\css\\bootstrap-tagsinput.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\bootstrap-tagsinput\\js\\bootstrap-tagsinput.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\bootstrap-tagsinput\\js\\bootstrap-tagsinput.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\dropzone\\dropzone.min.css",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\dropzone\\dropzone.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\dropzone\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\dropzone\\dropzone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fancybox\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fancybox\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fancybox\\jquery.fancybox.min.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fancybox\\jquery.fancybox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.html",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.html"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.html",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.html"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.html",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.html"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fullcalendar\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fullcalendar\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\fullcalendar\\jquery.fullcalendar.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\fullcalendar\\jquery.fullcalendar.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\jquery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\select2\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\select2\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\theia-sticky-sidebar\\ResizeSensor.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\theia-sticky-sidebar\\ResizeSensor.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\Customer\\assets\\plugins\\theia-sticky-sidebar\\theia-sticky-sidebar.js",
+      "PackagePath": "staticwebassets\\Customer\\assets\\plugins\\theia-sticky-sidebar\\theia-sticky-sidebar.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\DoctorImage\\doctor-01_20240620112328370.jpg",
+      "PackagePath": "staticwebassets\\DoctorImage\\doctor-01_20240620112328370.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\DoctorImage\\doctor-01_20240620112509964.jpg",
+      "PackagePath": "staticwebassets\\DoctorImage\\doctor-01_20240620112509964.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\DoctorImage\\doctor-02_20240620025415230.jpg",
+      "PackagePath": "staticwebassets\\DoctorImage\\doctor-02_20240620025415230.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\DoctorImage\\doctor-02_20240620031634233.jpg",
+      "PackagePath": "staticwebassets\\DoctorImage\\doctor-02_20240620031634233.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\DoctorImage\\doctor-02_20240620112525191.jpg",
+      "PackagePath": "staticwebassets\\DoctorImage\\doctor-02_20240620112525191.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\DoctorImage\\doctor-04_20240620120812944.jpg",
+      "PackagePath": "staticwebassets\\DoctorImage\\doctor-04_20240620120812944.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\DoctorImage\\doctor-09_20240620125259808.jpg",
+      "PackagePath": "staticwebassets\\DoctorImage\\doctor-09_20240620125259808.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\DoctorImage\\doctor-thumb-08_20240621165449801.jpg",
+      "PackagePath": "staticwebassets\\DoctorImage\\doctor-thumb-08_20240621165449801.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\UserImage\\patient2_20240621180813013.jpg",
+      "PackagePath": "staticwebassets\\UserImage\\patient2_20240621180813013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\UserImage\\patient8_20240620193525074.jpg",
+      "PackagePath": "staticwebassets\\UserImage\\patient8_20240620193525074.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\UserImage\\patient8_20240621165957434.jpg",
+      "PackagePath": "staticwebassets\\UserImage\\patient8_20240621165957434.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\UserImage\\patient_20240621175749262.jpg",
+      "PackagePath": "staticwebassets\\UserImage\\patient_20240621175749262.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\specialities\\specialities-02_20240621165206520.png",
+      "PackagePath": "staticwebassets\\specialities\\specialities-02_20240621165206520.png"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\specialities\\specialities-03_20240621165245886.png",
+      "PackagePath": "staticwebassets\\specialities\\specialities-03_20240621165245886.png"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\specialities\\specialities-04_20240621165234759.png",
+      "PackagePath": "staticwebassets\\specialities\\specialities-04_20240621165234759.png"
+    },
+    {
+      "Id": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\wwwroot\\specialities\\specialities-05_20240621165213843.png",
+      "PackagePath": "staticwebassets\\specialities\\specialities-05_20240621165213843.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.DoctorAppointment.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.DoctorAppointment.props",
+      "PackagePath": "build\\DoctorAppointment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.DoctorAppointment.props",
+      "PackagePath": "buildMultiTargeting\\DoctorAppointment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.DoctorAppointment.props",
+      "PackagePath": "buildTransitive\\DoctorAppointment.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

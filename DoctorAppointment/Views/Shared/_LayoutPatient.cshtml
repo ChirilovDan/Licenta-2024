@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Doctor Appointment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/Customer/assets/css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="~/Customer/assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/Customer/assets/plugins/fontawesome/css/all.min.css">
+
+    <!-- Datetimepicker CSS -->
+    <link rel="stylesheet" href="~/Customer/assets/css/bootstrap-datetimepicker.min.css">
+
+    <!-- Select2 CSS -->
+    <link rel="stylesheet" href="~/Customer/assets/plugins/select2/css/select2.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="~/Customer/assets/css/style.css">
+
+</head>
+<body>
+
+    <!-- Main Wrapper -->
+    <div class="main-wrapper">
+
+        <!-- Header -->
+        <header class="header">
+            <nav class="navbar navbar-expand-lg header-nav">
+                <div class="navbar-header">
+                    <a id="mobile_btn" href="javascript:void(0);">
+                        <span class="bar-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </a>
+                    <a href="/Home/Index" class="navbar-brand logo">
+
+                        <img src="~/Customer/assets/img/logo.png" class="img-fluid" alt="Logo">
+                    </a>
+                </div>
+                <div class="main-menu-wrapper">
+                    <div class="menu-header">
+                        <a href="/Home/Index" class="menu-logo">
+                            <img src="~/Customer/assets/img/logo.png" class="img-fluid" alt="Logo">
+                        </a>
+                        <a id="menu_close" class="menu-close" href="javascript:void(0);">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </div>
+                    <ul class="main-nav">
+                        <li>
+                            <a href="/Home/Index">Home</a>
+                        </li>
+                        @if (User.IsInRole("Patience"))
+                        {
+                            <li>
+                                <a href="/Home/PatientDashboard">Patient Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="/Home/UpdatePassword">Change Password</a>
+                            </li>
+                            <li>
+                                <a href="/Home/BookAppointment">Book Appointment</a>
+                            </li>
+                            <li>
+                                <a href="/Home/Prescription">Prescription</a>
+                            </li>
+                        }
+
+
+
+                    </ul>
+                </div>
+                <ul class="nav header-navbar-rht">
+
+                   
+                    @if (User.IsInRole("Patience"))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link header-login" href="/Home/Logout">Log out </a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link header-login" href="/Login/Login">login / Signup </a>
+                        </li>
+                    }
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <!-- Profile Sidebar -->
+                    <div class="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar">
+                        <div class="profile-sidebar">
+                            <div class="widget-profile pro-widget-content">
+                                <div class="profile-info-widget">
+                                    <a href="#" class="booking-doc-img">
+                                        <img src="~/UserImage/@ViewBag.Image " alt="User Image">
+                                    </a>
+                                    <div class="profile-det-info">
+                                        <h3>@ViewBag.Name</h3>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboard-widget">
+                                <nav class="dashboard-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="/Home/BookAppointment">
+                                                <i class="fas fa-columns"></i>
+                                                <span>Dashboard</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/Home/PatientDashboard">
+                                                <i class="fas fa-user-cog"></i>
+                                                <span>Profile Settings</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Home/Prescription">
+                                                <i class="fas fa-user-cog"></i>
+                                                <span>Prescription</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Home/UpdatePassword">
+                                                <i class="fas fa-lock"></i>
+                                                <span>Change Password</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Home/Logout">
+                                                <i class="fas fa-sign-out-alt"></i>
+                                                <span>Logout</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+                        </div>
+                    </div>
+                  
+                    @RenderBody()
+
+                </div>
+            </div>
+
+        </div>
+       
+    </div>
+   
+    <!-- jQuery -->
+    <script src="~/Customer/assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JS -->
+    <script src="~/Customer/assets/js/popper.min.js"></script>
+    <script src="~/Customer/assets/js/bootstrap.min.js"></script>
+
+    <!-- Select2 JS -->
+    <script src="~/Customer/assets/plugins/select2/js/select2.min.js"></script>
+
+    <!-- Datetimepicker JS -->
+    <script src="~/Customer/assets/js/moment.min.js"></script>
+    <script src="~/Customer/assets/js/bootstrap-datetimepicker.min.js"></script>
+
+    <!-- Sticky Sidebar JS -->
+    <script src="~/Customer/assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+    <script src="~/Customer/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+
+    <!-- Custom JS -->
+    <script src="~/Customer/assets/js/script.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+
+</html>

@@ -1,0 +1,274 @@
+﻿@model DoctorAppointment.ViewModel.BookingViewModel
+@{
+    ViewData["Title"] = "Booking";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .selected {
+        background-color: #007bff;
+        color: #fff;
+    }
+</style>
+<div class="content">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12">
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="booking-doc-info">
+                            <a class="booking-doc-img">
+                                <img src="~/DoctorImage/@Model.Image" alt="User Image">
+                                <input type="hidden" asp-for="userid" id="userId" />
+                            </a>
+                            <div class="booking-info">
+                                <h4><a>@Model.DoctorName</a></h4>
+
+                                <p class="text-muted mb-0"><i class="fas fa-map-marker-alt"></i> @Model.State, @Model.Contry</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title" style="float: left">Service</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="profile-box">
+                                    <div class="row">
+                                        <div class="col-md-12">
+
+                                            <div class="row">
+                                                @foreach (var item in Model.OfferServices)
+                                                {
+                                                    <div class="col-md-4">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input service-checkbox" type="checkbox" name="selectedServices" value="@item.ID" id="service_@item.ID" data-id="@item.ID">
+                                                            <label class="form-check-label" for="service_@item.ID">
+                                                                @item.Name - $@item.Price.ToString("0")
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                }
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title" style="float: left">Schedule Timings</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="profile-box">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card schedule-widget mb-0">
+                                                <div class="schedule-header">
+                                                    <div class="schedule-nav">
+                                                        <ul class="nav nav-tabs nav-justified">
+                                                            <li class="nav-item">
+                                                                <a class="nav-link active" data-toggle="tab" href="#slot_Sunday">Sunday</a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#slot_Monday">Monday</a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#slot_Tuesday">Tuesday</a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#slot_Wednesday">Wednesday</a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#slot_Thursday">Thursday</a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#slot_Friday">Friday</a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#slot_Saturday">Saturday</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+
+                                                </div>
+
+                                                <div class="tab-content schedule-cont">
+
+                                                    @foreach (var day in new[] { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" })
+                                                    {
+                                                        <div id="slot_@day" class="tab-pane fade @if (day == "Sunday") { <text>show active</text> }">
+                                                            <h4 class="card-title d-flex justify-content-between">
+                                                                <span>Time Slots</span>
+                                                            </h4>
+                                                            <div class="doc-times">
+                                                                @if (Model.scheduleTimings.Any(m => m.Day == day))
+                                                                {
+                                                                    @foreach (var item in Model.scheduleTimings.Where(m => m.Day == day))
+                                                                    {
+                                                                        var slots = item.Slot.Split(',');
+
+                                                                        @foreach (var slot in slots)
+                                                                        {
+                                                                            <div class="doc-slot-list">
+                                                                                <a style="color:white" class="slot-link" href="javascript:void(0);" data-day="@day" data-slot="@slot.Trim()">
+                                                                                    @slot.Trim()
+                                                                                </a>
+                                                                            </div>
+                                                                        }
+                                                                    }
+                                                                }
+                                                                else
+                                                                {
+                                                                    <p class="text-muted mb-0">Not Available</p>
+                                                                }
+                                                            </div>
+                                                        </div>
+                                                    }
+
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="bookingForm" action="checkout" >
+                    <input type="hidden" name="DocId" value="@Model.userid" />
+                    <input type="hidden" name="SelectedDay" id="SelectedDay" />
+                    <input type="hidden" name="SelectedSlot" id="SelectedSlot" />
+                    <input type="hidden" name="SelectedCheckboxList" id="SelectedCheckboxList" />
+
+                    <div class="submit-section proceed-btn text-right">
+                        @if (User.IsInRole("Patience"))
+                        {
+                            <button type="submit" class="btn btn-primary submit-btn">Proceed to Pay</button>
+                        }
+                        else
+                        {
+                            <p class="text-danger">Please Login then you are able to Proceed</p>
+                        }
+                    </div>
+                </form>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.slot-link').click(function (e) {
+            e.preventDefault();
+
+            $('.slot-link').removeClass('selected');
+
+
+            $(this).addClass('selected');
+
+            var selectedDay = $(this).data('day');
+            var slotValue = $(this).data('slot');
+            var userId = $('#userId').val();
+            $('#SelectedDay').val(selectedDay);
+            $('#SelectedSlot').val(slotValue);
+
+
+        });
+        $('#bookingForm').submit(function (e) {
+
+            if ($('.slot-link.selected').length === 0) {
+                e.preventDefault();
+
+
+                alert('Please select a time slot before proceeding to pay.');
+            }
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+
+        var currentDayIndex = new Date().getDay();
+
+
+        $('.nav-link').each(function (index) {
+            if (index <= currentDayIndex) {
+                $(this).addClass('disabled');
+                $(this).removeAttr('data-toggle');
+                $(this).attr('href', 'javascript:void(0);');
+            }
+        });
+
+        $('.nav-link').click(function (e) {
+            e.preventDefault();
+
+            if ($(this).hasClass('disabled')) {
+                alert('You cannot select previous days.');
+                return;
+            }
+
+            var dayId = $(this).attr('href');
+            $(dayId).tab('show');
+
+        });
+
+        var currentDayTab = $('.nav-link').eq(currentDayIndex);
+        if (!currentDayTab.hasClass('disabled')) {
+            currentDayTab.tab('show');
+        } else {
+            $('.nav-link:not(.disabled)').eq(0).tab('show');
+        }
+    });</script>
+<script>
+    $(document).ready(function () {
+        // Function to update the hidden input with selected checkbox values
+        function updateSelectedCheckboxList() {
+            var selectedCheckboxes = [];
+            $('.service-checkbox:checked').each(function () {
+                selectedCheckboxes.push($(this).val()); // Get the value of the checked checkbox
+            });
+            console.log('Selected Checkbox Values:', selectedCheckboxes);
+
+            $('#SelectedCheckboxList').val(selectedCheckboxes.join(',')); // Join the values with a comma
+        }
+
+        // Event listener for checkbox change
+        $('.service-checkbox').change(function () {
+            updateSelectedCheckboxList();
+        });
+
+        // Ensure the hidden input is updated before form submission
+        $('#bookingForm').submit(function () {
+            updateSelectedCheckboxList();
+        });
+    });
+</script>
+

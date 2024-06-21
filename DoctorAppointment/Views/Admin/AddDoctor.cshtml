@@ -1,0 +1,206 @@
+﻿@model DoctorAppointment.DTO.UserDto
+@{
+    ViewData["Title"] = "AddDoctor";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-7 col-auto">
+                    <h3 class="page-title">Add Doctor</h3>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/Admin/Index">Dashboard</a></li>
+                        <li class="breadcrumb-item active">Add Doctor</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <form asp-action="AddDoctor" method="post" enctype="multipart/form-data">
+                            <div class="text-danger" asp-validation-summary="ModelOnly">
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <span class="text-danger" asp-validation-for="FirstName"></span>
+
+                                    <div class="form-group">
+                                        <label>First Name</label>
+                                        <input type="text" class="form-control" asp-for="FirstName" placeholder="First Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <span class="text-danger" asp-validation-for="LastName"></span>
+
+                                    <div class="form-group">
+                                        <label>Last Name</label>
+                                        <input type="text" asp-for="LastName" class="form-control" placeholder="Last Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <span class="text-danger" asp-validation-for="Gender"></span>
+                                    <div class="form-group">
+                                        <label>Gender</label>
+                                        <select class="form-control" asp-for="Gender">
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 ">
+                                    <span class="text-danger" asp-validation-for="DOB"></span>
+                                    <div class="form-group">
+                                        <label>DOB</label>
+                                        <input type="date" asp-for="DOB" class="form-control" placeholder="DOB">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+                                    <div class="form-group">
+                                        <label>Phone number</label>
+                                        <input type="number" asp-for="PhoneNumber" class="form-control" placeholder="Phone number">
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 ">
+                                    <span class="text-danger" asp-validation-for="DoctorAvailability"></span>
+                                    <div class="form-group">
+                                        <label>Doctor Availability</label>
+                                        <input type="datetime-local" asp-for="DoctorAvailability" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <span class="text-danger" asp-validation-for="Adress"></span>
+                                    <div class="form-group">
+                                        <label>Adress</label>
+                                        <input type="text" class="form-control" asp-for="Adress" placeholder="Adress">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 ">
+                                    <span class="text-danger" asp-validation-for="City"></span>
+                                    <div class="form-group">
+                                        <label>City</label>
+                                        <input type="text" asp-for="City" class="form-control" placeholder="City">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <span class="text-danger" asp-validation-for="State"></span>
+                                    <div class="form-group">
+                                        <label>state</label>
+                                        <input type="text" class="form-control" asp-for="State" placeholder="State">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 ">
+                                    <span class="text-danger" asp-validation-for="Country"></span>
+                                    <div class="form-group">
+                                        <label>Country</label>
+                                        <input type="text" asp-for="Country" class="form-control" placeholder="Country">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <span class="text-danger" asp-validation-for="PostalCode"></span>
+                                    <div class="form-group">
+                                        <label>Postal Code</label>
+                                        <input type="text" class="form-control" asp-for="PostalCode" placeholder="Postal Code">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 ">
+                                    <span class="text-danger" asp-validation-for="DoctorFee"></span>
+                                    <div class="form-group">
+                                        <label>Doctor Fee</label>
+                                        <input type="text" asp-for="DoctorFee" class="form-control" placeholder="Doctor Fee">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <span class="text-danger" asp-validation-for="Image"></span>
+                                    <div class="form-group">
+                                        <label>Doctor Image</label>
+                                        <input type="file" class="form-control" asp-for="ProductFile" placeholder="Doctor Image">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 ">
+                                    <span class="text-danger" asp-validation-for="AboutMe"></span>
+                                    <div class="form-group">
+                                        <label>About Me</label>
+                                        <input type="text" asp-for="AboutMe" class="form-control" placeholder="About Me">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <span class="text-danger" asp-validation-for="specialitiesId"></span>
+                                    <div class="form-group">
+                                        <label>Select specialities</label>
+                                        <select asp-items="ViewBag.special" asp-for="specialitiesId" class="form-control"></select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 ">
+                                    <span class="text-danger" asp-validation-for="Email"></span>
+                                    <div class="form-group">
+                                        <label>Doctor Email</label>
+                                        <input type="email" asp-for="Email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <span class="text-danger" asp-validation-for="Password"></span>
+                                    <div class="form-group">
+                                        <label>Password</label>
+                                        <input type="password" class="form-control" asp-for="Password" placeholder="Password" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 ">
+                                    <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+                                    <div class="form-group">
+                                        <label>Confirm Password</label>
+                                        <input type="password" asp-for="ConfirmPassword" class="form-control" placeholder="Confirm Password">
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" style="margin-top:60px" class="btn btn-primary">Save</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

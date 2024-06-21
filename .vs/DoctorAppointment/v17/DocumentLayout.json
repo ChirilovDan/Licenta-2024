@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|c:\\users\\dan\\desktop\\doctorappointmentweb\\doctorappointment\\doctorappointment\\views\\home\\bookappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|solutionrelative:doctorappointment\\views\\home\\bookappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|c:\\users\\dan\\desktop\\doctorappointmentweb\\doctorappointment\\doctorappointment\\viewmodel\\bookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|solutionrelative:doctorappointment\\viewmodel\\bookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|c:\\users\\dan\\desktop\\doctorappointmentweb\\doctorappointment\\doctorappointment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|solutionrelative:doctorappointment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|c:\\users\\dan\\desktop\\doctorappointmentweb\\doctorappointment\\doctorappointment\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|solutionrelative:doctorappointment\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|c:\\users\\dan\\desktop\\doctorappointmentweb\\doctorappointment\\doctorappointment\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|solutionrelative:doctorappointment\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|c:\\users\\dan\\desktop\\doctorappointmentweb\\doctorappointment\\doctorappointment\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|solutionrelative:doctorappointment\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|c:\\users\\dan\\desktop\\doctorappointmentweb\\doctorappointment\\doctorappointment\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|solutionrelative:doctorappointment\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|c:\\users\\dan\\desktop\\doctorappointmentweb\\doctorappointment\\doctorappointment\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|solutionrelative:doctorappointment\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|c:\\users\\dan\\desktop\\doctorappointmentweb\\doctorappointment\\doctorappointment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|solutionrelative:doctorappointment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|c:\\users\\dan\\desktop\\doctorappointmentweb\\doctorappointment\\doctorappointment\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95600A08-42B0-49B7-8867-9F7948D92021}|DoctorAppointment\\DoctorAppointment.csproj|solutionrelative:doctorappointment\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\ViewModel\\BookingViewModel.cs",
+              "RelativeDocumentMoniker": "DoctorAppointment\\ViewModel\\BookingViewModel.cs",
+              "ToolTip": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\ViewModel\\BookingViewModel.cs",
+              "RelativeToolTip": "DoctorAppointment\\ViewModel\\BookingViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T20:06:27.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookAppointment.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\Views\\Home\\BookAppointment.cshtml",
+              "RelativeDocumentMoniker": "DoctorAppointment\\Views\\Home\\BookAppointment.cshtml",
+              "ToolTip": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\Views\\Home\\BookAppointment.cshtml",
+              "RelativeToolTip": "DoctorAppointment\\Views\\Home\\BookAppointment.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T20:06:04.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoctorAppointment\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DoctorAppointment\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T19:55:24.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\Views\\Login\\Register.cshtml",
+              "RelativeDocumentMoniker": "DoctorAppointment\\Views\\Login\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\Views\\Login\\Register.cshtml",
+              "RelativeToolTip": "DoctorAppointment\\Views\\Login\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T19:45:34.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "DoctorAppointment\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "DoctorAppointment\\Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T19:43:20.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "DoctorAppointment\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "DoctorAppointment\\DTO\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T19:41:28.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "DoctorAppointment\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "DoctorAppointment\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T19:40:32.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DoctorAppointment\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DoctorAppointment\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T19:40:31.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "DoctorAppointment\\Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "DoctorAppointment\\Controllers\\DoctorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T19:40:29.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "DoctorAppointment\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Dan\\Desktop\\DoctorAppointmentWEB\\DoctorAppointment\\DoctorAppointment\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "DoctorAppointment\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAMwAAAAAAAAAAAAlwNEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T19:40:27Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
