@@ -1,0 +1,159 @@
+﻿@model DoctorAppointment.DTO.ScheduleDTO
+@{
+    ViewData["Title"] = "AddSchedule";
+    Layout = "~/Views/Shared/_LayoutDoctor.cshtml";
+}
+
+<div class="col-md-7 col-lg-8 col-xl-9">
+    <div class="breadcrumb-bar">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-12">
+                    <nav aria-label="breadcrumb" class="page-breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Schedule Timings</li>
+                        </ol>
+                    </nav>
+                    <h2 class="breadcrumb-title">Schedule Timings</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    @{
+        var disableDays = ViewBag.DisableDay as List<string> ?? new List<string>();
+        string disableDaysJson = Newtonsoft.Json.JsonConvert.SerializeObject(disableDays);
+    }
+    <form asp-action="AddSchedule" method="post">
+        <div class="text-danger" asp-validation-summary="ModelOnly">
+
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Basic Information</h4>
+                <div class="row form-row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>Select Day <span class="text-danger">*</span></label>
+                            <select id="selectDay" class="form-control" asp-for="SelectDay">
+                                <option selected disabled>Select day</option>
+                                <option value="Monday">Monday</option>
+                                <option value="Tuesday">Tuesday</option>
+                                <option value="Wednesday">Wednesday</option>
+                                <option value="Thursday">Thursday</option>
+                                <option value="Friday">Friday</option>
+                                <option value="Saturday">Saturday</option>
+                                <option value="Sunday">Sunday</option>
+                            </select>
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="container mt-5">
+                        <div id="formRows">
+                            <div class="row mb-3">
+                                <div class="col-md-5">
+                                    <span class="text-danger" asp-validation-for="StartTime"></span>
+                                    <div class="form-group">
+                                        <label>Start time <span class="text-danger">*</span></label>
+                                        <input type="time" class="form-control" name="StartTime">
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <span class="text-danger" asp-validation-for="EndTime"></span>
+                                    <div class="form-group">
+                                        <label>End Time <span class="text-danger">*</span></label>
+                                        <input type="time" class="form-control" name="EndTime">
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-group">
+                                        <label>Add Row</label>
+                                        <button id="addRow" class="btn btn-primary" type="button">Add Row</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="submit-section submit-btn-bottom">
+            <input type="submit" class="btn btn-primary submit-btn" value="Save Changes" />
+        </div>
+    </form>
+
+
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.getElementById('addRow').addEventListener('click', function () {
+            let formRows = document.getElementById('formRows');
+
+            // Create new row
+            let newRow = document.createElement('div');
+            newRow.className = 'row mb-3';
+
+            // Create start time column
+            let startTimeCol = document.createElement('div');
+            startTimeCol.className = 'col-md-5';
+            startTimeCol.innerHTML = `
+                <div class="form-group">
+                    <label>Start time <span class="text-danger">*</span></label>
+                    <input type="time" class="form-control" name="StartTime">
+                </div>
+            `;
+
+            // Create end time column
+            let endTimeCol = document.createElement('div');
+            endTimeCol.className = 'col-md-5';
+            endTimeCol.innerHTML = `
+                <div class="form-group">
+                    <label>End Time <span class="text-danger">*</span></label>
+                    <input type="time" class="form-control" name="EndTime">
+                </div>
+            `;
+
+            // Create remove button column
+            let removeBtnCol = document.createElement('div');
+            removeBtnCol.className = 'col-md-2 d-flex align-items-end';
+            removeBtnCol.innerHTML = `
+                <button class="btn btn-danger removeRow" type="button" style="margin-block: auto">Delete</button>
+            `;
+
+            // Append columns to new row
+            newRow.appendChild(startTimeCol);
+            newRow.appendChild(endTimeCol);
+            newRow.appendChild(removeBtnCol);
+
+            // Append new row to form
+            formRows.appendChild(newRow);
+        });
+
+        // Delegate event for removing row
+        document.getElementById('formRows').addEventListener('click', function (e) {
+            if (e.target && e.target.classList.contains('removeRow')) {
+                e.target.closest('.row').remove();
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+        var disableDays = @Html.Raw(disableDaysJson);
+
+        var selectElement = document.getElementById('selectDay');
+        var options = selectElement.options;
+
+        // Disable options based on disableDays array
+        for (var i = 0; i < options.length; i++) {
+            if (disableDays.includes(options[i].value)) {
+                options[i].disabled = true;
+            }
+        }
+    });
+    </script>
+}

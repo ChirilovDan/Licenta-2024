@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Doctor Appointment</title>
+
+    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/Customer/assets/css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="~/Customer/assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/Customer/assets/plugins/fontawesome/css/all.min.css">
+
+    <!-- Select2 CSS -->
+    <link rel="stylesheet" href="~/Customer/assets/plugins/select2/css/select2.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="~/Customer/assets/css/style.css">
+
+
+</head>
+<body>
+
+    <div class="main-wrapper">
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar">
+                        <div class="profile-sidebar">
+                            <div class="widget-profile pro-widget-content">
+                                <div class="profile-info-widget">
+                                    <a href="#" class="booking-doc-img">
+                                        <img src="~/DoctorImage/@ViewBag.Image" alt="User Image">
+                                    </a>
+                                    <div class="profile-det-info">
+                                        <h3>@ViewBag.Name</h3>
+
+                                        <div class="patient-details">
+                                            <h5 class="mb-0">@ViewBag.About</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboard-widget">
+                                <nav class="dashboard-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="/Doctor/Index">
+                                                <i class="fas fa-columns"></i>
+                                                <span>Dashboard</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Doctor/ScheduleTimings">
+                                                <i class="fas fa-hourglass-start"></i>
+                                                <span>Schedule Timings</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Doctor/DoctorServices">
+                                                <i class="fas fa-hourglass-start"></i>
+                                                <span> Services</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/Doctor/DoctorProfile">
+                                                <i class="fas fa-user-cog"></i>
+                                                <span>Profile Settings</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/Doctor/UpdatePassword">
+                                                <i class="fas fa-lock"></i>
+                                                <span>Change Password</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Doctor/Logout">
+                                                <i class="fas fa-sign-out-alt"></i>
+                                                <span>Logout</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    @RenderBody()
+                </div>
+
+            </div>
+
+        </div>
+
+        
+        <!-- /Footer -->
+
+    </div>
+    
+    <!-- /Main Wrapper -->
+    <!-- jQuery -->
+    <script src="~/Customer/assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JS -->
+    <script src="~/Customer/assets/js/popper.min.js"></script>
+    <script src="~/Customer/assets/js/bootstrap.min.js"></script>
+
+    <!-- Sticky Sidebar JS -->
+    <script src="~/Customer/assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+    <script src="~/Customer/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+
+    <!-- Select2 JS -->
+    <script src="~/Customer/assets/plugins/select2/js/select2.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="~/Customer/assets/js/script.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

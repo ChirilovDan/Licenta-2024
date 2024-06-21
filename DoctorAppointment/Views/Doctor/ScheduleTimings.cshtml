@@ -1,0 +1,122 @@
+﻿@model IEnumerable<DoctorAppointment.Models.ScheduleTiming>
+@{
+    ViewData["Title"] = "Schedule Timings";
+    Layout = "~/Views/Shared/_LayoutDoctor.cshtml";
+}
+
+<div class="col-md-7 col-lg-8 col-xl-9">
+    <div class="breadcrumb-bar">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-12">
+                    <nav aria-label="breadcrumb" class="page-breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a >Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Schedule Timings</li>
+                        </ol>
+                    </nav>
+                    <h2 class="breadcrumb-title">Schedule Timings</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title" style="float: left">Schedule Timings</h4>
+                    <a class="btn btn-primary" style="float: right;" href="/Doctor/AddSchedule">Add new Slot</a>
+
+                </div>
+                <div class="card-body">
+                    <div class="profile-box">
+                        <div class="row">     
+                            <div class="col-md-12">
+                                <div class="card schedule-widget mb-0">
+                                    <div class="schedule-header">
+                                        <div class="schedule-nav">
+                                            <ul class="nav nav-tabs nav-justified">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" data-toggle="tab" href="#slot_Sunday">Sunday</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" data-toggle="tab" href="#slot_Monday">Monday</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" data-toggle="tab" href="#slot_Tuesday">Tuesday</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" data-toggle="tab" href="#slot_Wednesday">Wednesday</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" data-toggle="tab" href="#slot_Thursday">Thursday</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" data-toggle="tab" href="#slot_Friday">Friday</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" data-toggle="tab" href="#slot_Saturday">Saturday</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                      
+
+                                    </div>
+                                   
+                                    <div class="tab-content schedule-cont">
+
+                                        @foreach (var day in new[] { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" })
+                                        {
+                                            <div id="slot_@day" class="tab-pane fade @if (day == "Sunday") { <text>show active</text> }">
+                                                <h4 class="card-title d-flex justify-content-between">
+                                                   
+                                                    <span>Time Slots</span>
+                                                    @if (Model.Any(m => m.Day == day && !string.IsNullOrEmpty(m.Slot)))
+                                                    {
+                                                        <a  asp-action="DeleteSchedule" asp-route-day="@day"><i class="fa fa-trash mr-1"></i>Delete Slot</a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <a class="edit-link"  href="/Doctor/AddSchedule"><i class="fa fa-plus-circle"></i> Add Slot</a>
+                                                    }
+                                                </h4>
+                                                <div class="doc-times">
+                                                    @if (Model.Any(m => m.Day == day))
+                                                    {
+                                                        @foreach (var item in Model.Where(m => m.Day == day))
+                                                        {
+                                                            var slots = item.Slot.Split(',');
+
+                                                            @foreach (var slot in slots)
+                                                            {
+                                                                <div class="doc-slot-list">
+                                                                    @slot.Trim() 
+                                                                    
+                                                                </div>
+                                                            }
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        <p class="text-muted mb-0">Not Available</p>
+                                                    }
+                                                </div>
+                                            </div>
+                                        }
+
+                                    </div>
+                                   
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+

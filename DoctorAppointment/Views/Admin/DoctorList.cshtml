@@ -1,0 +1,69 @@
+﻿@model IEnumerable<DoctorAppointment.ViewModel.DoctorViewModel>
+@{
+    ViewData["Title"] = "DoctorList";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-7 col-auto">
+                    <h3 class="page-title">Doctor</h3>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a>Dashboard</a></li>
+                        <li class="breadcrumb-item active">Doctor</li>
+                    </ul>
+                </div>
+                <div class="col-sm-5 col">
+                    <a href="/Admin/AddDoctor" class="btn btn-primary float-right mt-2">Add</a>
+                </div>
+            </div>
+        </div>
+        <!-- /Page Header -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="datatable table table-hover table-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Speciality</th>
+                                        <th>DOB</th>
+                                        <th>Email</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+
+                                            <td>
+                                                <h2 class="table-avatar">
+                                                    <a href="#" class="avatar avatar-sm mr-2">
+                                                        <img class="avatar-img rounded-circle" src="~/DoctorImage/@item.Image" alt="Speciality">
+                                                    </a>
+                                                    <a href="#">@item.Name</a>
+                                                </h2>
+                                            </td>
+
+                                            <td>@item.SpeicalFiled</td>
+                                            <td>@item.DOB.ToString("dd/MM/yyyy")</td>
+                                            <td>@item.Email</td>
+                                        </tr>
+                                    }
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

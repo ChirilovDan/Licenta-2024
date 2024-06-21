@@ -1,0 +1,128 @@
+﻿@model IEnumerable<DoctorAppointment.ViewModel.AppointmentViewModel>
+@{
+    ViewData["Title"] = "Appointments";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-7 col-auto">
+                    <h3 class="page-title">Appointments</h3>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a>Dashboard</a></li>
+                        <li class="breadcrumb-item active">Appointments</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!-- /Page Header -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="datatable table table-hover table-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Doctor</th>
+                                        <th>Appt Date</th>
+                                        <th>Booking Date</th>
+                                        <th>Amount</th>
+
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <h2 class="table-avatar">
+                                                    <a class="avatar avatar-sm mr-2">
+                                                        <img class="avatar-img rounded-circle" src="~/UserImage/@item.Image" alt="User Image">
+                                                    </a>
+                                                    <a>@item.Name <span>@item.Special</span></a>
+                                                </h2>
+                                            </td>
+                                            <td>@item.Time <span class="d-block text-info">@item.BookingDate</span></td>
+                                            <td>@item.AppointmentDate.ToString("M/d/yyyy")</td>
+                                            <td>$@item.Amount.ToString("0")</td>
+
+                                            <td>
+                                                @if (item.Status == "Confirm")
+                                                {
+                                                    <span class="badge badge-pill bg-success-light">@item.Status</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge badge-pill bg-danger-light">@item.Status</span>
+                                                }
+
+                                            </td>
+                                            <td>
+                                                <a class="btn btn-primary" asp-action="Prescriptions" asp-route-id="@item.PatientId">Prescription</a>
+                                            </td>
+                                            <td>
+                                                <a href="javascript:void(0)" onclick="Delete('@item.id')" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>
+
+                                            </td>
+
+                                        </tr>
+                                    }
+
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+
+        function Delete(id) {
+            swal({
+                title: "Are you sure?",
+                text: "You want to Delete.",
+                type: "warning",
+                buttons: true,
+                dangerMode: true,
+            })
+                .then((willDelete) => {
+                    if (willDelete) {
+                        $.ajax({
+                            url: "/Admin/UpdateStatus",
+                            type: "POST",
+                            data: {
+                                id: id
+                            },
+                            dataType: "json",
+                            success: function () {
+                                swal("Done!", "It was succesfully Delete!", "success");
+                                setTimeout(function () {
+                                    window.location.href = '../Admin/Appointments';
+                                }, 2000);
+                            },
+                            error: function (xhr, ajaxOptions, thrownError) {
+                                swal("Error deleting!", "Please try again", "error");
+                            }
+                        });
+                    } else {
+                        swal("Your imaginary file is safe!");
+                    }
+                });
+        }
+    </script>
+}

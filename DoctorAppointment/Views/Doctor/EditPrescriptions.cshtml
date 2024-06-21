@@ -1,0 +1,57 @@
+﻿@model DoctorAppointment.Models.Prescription
+@{
+    ViewData["Title"] = "EditPrescriptions";
+    Layout = "~/Views/Shared/_LayoutDoctor.cshtml";
+}
+
+
+<div class="col-md-7 col-lg-8 col-xl-9">
+    <div class="breadcrumb-bar">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-12">
+                    <nav aria-label="breadcrumb" class="page-breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a>Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Edit Prescriptions</li>
+                        </ol>
+                    </nav>
+                    <h2 class="breadcrumb-title">Edit Prescriptions</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+
+    <form asp-action="EditPrescriptions" method="post">
+        <input type="hidden" asp-for="PatientId" value="@Model.PatientId" />
+        <input type="hidden" asp-for="PrescriptionDate" value="@Model.PrescriptionDate" />
+        <div class="text-danger" asp-validation-summary="ModelOnly">
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Basic Information</h4>
+                <div class="row form-row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>Name <span class="text-danger">*</span></label>
+                            <textarea class="form-control" asp-for="Name" rows="5" placeholder=""></textarea>
+                        </div>
+                        <span class="text-danger" asp-validation-for="Name"></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="submit-section submit-btn-bottom">
+            <input type="submit" class="btn btn-primary submit-btn" value="Save Changes" />
+        </div>
+    </form>
+
+
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
